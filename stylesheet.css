@@ -463,7 +463,7 @@ footer h3, p {
     background: var(--secondary);
     color: var(--background);
     padding: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .temporary-content {
@@ -614,6 +614,7 @@ footer h3, p {
 	font-family: var(--font-sans-serif);
 }
 
+
 .story-service-item img {
     width: 100%;
     max-width: 500px;
@@ -624,7 +625,7 @@ footer h3, p {
 
 .story-service-item .text {
     width: 100%;
-    max-width: 500px;
+    max-width: 800px;
     text-align: left; 
     margin-top: 10px; 
 }
@@ -707,7 +708,6 @@ form {
     width: 100%;
     padding: 12px;
     border: none;
-    border-radius: 5px;
     font-size: 16px;
     outline: none;
 }
@@ -886,32 +886,35 @@ textarea {
     }
 
     .story-service-container {
+        width: 100%; 
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 30px;
+        gap: 50px; 
+        padding: 0 5%;
     }
 
     .story-service-item {
+        width: 100%;
+        max-width: none; 
+        text-align: left;
+        display: flex;
         flex-direction: column;
-        text-align: center;
         align-items: center;
-        gap: 20px;
-        padding: 0 15px;
     }
 
     .story-service-item img {
-        width: 90%;
-        max-width: 700px;
+        width: 100%; 
+        max-width: 700px; 
         height: auto;
     }
 
     .story-service-item .text {
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
+        width: 100%;
+        max-width: 1000px; 
+        text-align: left;
+        font-size: 18px; 
     }
-
     .story-service-item p {
     	text-align: left;
     }
@@ -1120,30 +1123,30 @@ textarea {
     }
 
     .story-service-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
+        width: 100%;
+        padding: 0 5%;
     }
 
     .story-service-item {
-        flex-direction: column;
+        width: 100%;
         text-align: center;
-        align-items: center;
-        gap: 20px;
-        padding: 0 15px;
     }
 
     .story-service-item img {
-        width: 90%; 
-        max-width: 500px;
+        width: 100%;
+        max-width: 600px; 
         height: auto;
     }
 
     .story-service-item .text {
-        width: 90%;
-        text-align: center;
-        margin: 0 auto;
+        width: 100%;
+        max-width: 800px; 
+        font-size: 20px;
+        text-align: left;
+    }
+
+    .story-service-item p {
+        width: 
     }
 
      .benefits-container {
